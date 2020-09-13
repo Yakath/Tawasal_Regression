@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PassingparmetersinTestcase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8937a2ff-379c-4a95-9780-44960b47bd0a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7397e5e5-0246-4ce3-bc83-ccd23cbf33f9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4a556e8c-e45c-4bb5-9d4e-3401a04a05f9</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
