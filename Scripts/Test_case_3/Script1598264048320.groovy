@@ -26,3 +26,5 @@ WebUI.setEncryptedText(findTestObject('Page_Login/input_Remember login_wt18wtMai
 
 WebUI.click(findTestObject('Page_Login/input_Remember login_wt18wtMainContentwtLog_539a3d'))
 
+WebUI.closeBrowser()
+
