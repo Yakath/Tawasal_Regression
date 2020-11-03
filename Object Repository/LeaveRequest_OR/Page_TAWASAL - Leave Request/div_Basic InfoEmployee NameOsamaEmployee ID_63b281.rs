@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Basic InfoEmployee NameOsamaEmployee ID_63b281</name>
+   <tag></tag>
+   <elementGuidId>f3135e2f-4722-4563-9986-a5a51b20565c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ATCGlobalTheme_wt255_block_wtMainContent']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.HrForm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>HrForm</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Basic InfoEmployee Name: OsamaEmployee ID: 0CCN: 0Department: Information Technology Dept.Division: Develop &amp; Implement Dept Internal Service CCN:6504Request InfoType Of Leave:AnnualEmergency-Paid/UnpaidHajMaternityLeave Encashment: Days From: To: Expected Resuming Duty On: 29-11-2020Leave Allowance in advance:When checked, the employee will receive the Leave allowance and also the month’s salary at the date processed by accounts. When not checked, the employee will receive the Leave allowance along with the month’s salary at the end of the month. Address and Contact no. during vacation:Leave Balance:Leave Balance Date:</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ATCGlobalTheme_wt255_block_wtMainContent&quot;)/div[@class=&quot;HrForm&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ATCGlobalTheme_wt255_block_wtMainContent']/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave Request'])[1]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leaves'])[1]/following::div[11]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

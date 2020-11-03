@@ -24,17 +24,17 @@ for(def rowNum=1; rowNum<=findTestData("Data1").getRowNumbers(); rowNum++)
 
 {
 
-//WebUI.setText(findTestObject('Page_Login/input_Remember login_wt18wtMainContentwtUse_b22bb2'), username)
-WebUI.setText(findTestObject('Page_Login/input_Remember login_wt18wtMainContentwtUse_b22bb2'), findTestData("Data1").getValue(1, rowNum))
+//WebUI.setText(findTestObject('null'), username)
+WebUI.setText(findTestObject('null'), findTestData("Data1").getValue(1, rowNum))
 
-WebUI.setText(findTestObject('Page_Login/input_Remember login_wt18wtMainContentwtPas_3db4e9'), findTestData("Data1").getValue(2, rowNum))
-//WebUI.setText(findTestObject('Page_Login/input_Remember login_wt18wtMainContentwtPas_3db4e9'), password)
+WebUI.setText(findTestObject('null'), findTestData("Data1").getValue(2, rowNum))
+//WebUI.setText(findTestObject('null'), password)
 
 Thread.sleep(3000)
 
 }
 
-WebUI.click(findTestObject('Page_Login/input_Remember login_wt18wtMainContentwtLog_539a3d'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

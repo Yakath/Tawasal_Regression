@@ -20,9 +20,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.20.110.232/ATCGlobalTheme/NoPermission.aspx')
 
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Remember login_wt18wtMainContentwtUse_b22bb2'), 'admin')
+WebUI.setText(findTestObject('null'), 'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Remember login_wt18wtMainContentwtPas_3db4e9'), 
+WebUI.setEncryptedText(findTestObject('null'), 
     '')
 
 WebUI.takeScreenshot(FailureHandling.CONTINUE_ON_FAILURE)

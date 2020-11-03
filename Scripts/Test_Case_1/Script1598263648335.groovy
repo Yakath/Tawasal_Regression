@@ -20,12 +20,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.20.110.232/ATCGlobalTheme/NoPermission.aspx')
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Login/input_Remember login_wt18wtMainContentwtUse_b22bb2'), 'yakath')
+WebUI.setText(findTestObject('null'), 'yakath')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Login/input_Remember login_wt18wtMainContentwtPas_3db4e9'), 
+WebUI.setEncryptedText(findTestObject('null'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Login/input_Remember login_wt18wtMainContentwtLog_539a3d'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementChecked(findTestObject('Object Repository/Login/Page_Login/span_Invalid username or password'), 0)
+WebUI.verifyElementChecked(findTestObject('null'), 0)
 
