@@ -28,8 +28,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/ManpowerRequest/Page
 WebUI.setText(findTestObject('Object Repository/ManpowerRequest/Page_TAWASAL - Manpower Request/input_Civil ID_ATCGlobalTheme_wt171blockwtM_298a6b'), 
     '287867986756')
 
-WebUI.setText(findTestObjec
-	t('Object Repository/ManpowerRequest/Page_TAWASAL - Manpower Request/input_Passport No_ATCGlobalTheme_wt171block_da061a'), 
+WebUI.setText(findTestObject('Object Repository/ManpowerRequest/Page_TAWASAL - Manpower Request/input_Passport No_ATCGlobalTheme_wt171block_da061a'), 
     'S346545657')
 
 WebUI.setText(findTestObject('Object Repository/ManpowerRequest/Page_TAWASAL - Manpower Request/input_PhoneMobile_ATCGlobalTheme_wt171block_b2c42c'), 
@@ -56,6 +55,4 @@ WebUI.setText(findTestObject('Object Repository/ManpowerRequest/Page_TAWASAL - M
 WebUI.click(findTestObject('Object Repository/ManpowerRequest/Page_TAWASAL - Manpower Request/input_common.txt_ATCGlobalTheme_wt171blockw_2ac57d'))
 
 WebUI.acceptAlert()
-
-CustomKeywords.'com.kms.katalon.keyword.applitools.BasicKeywords.checkTestObject'(findTestObject(null), '')
 
