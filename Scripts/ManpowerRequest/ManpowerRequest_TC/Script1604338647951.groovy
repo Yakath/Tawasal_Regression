@@ -56,3 +56,5 @@ WebUI.click(findTestObject('Object Repository/ManpowerRequest/Page_TAWASAL - Man
 
 WebUI.acceptAlert()
 
+WebUI.acceptAlert()
+
