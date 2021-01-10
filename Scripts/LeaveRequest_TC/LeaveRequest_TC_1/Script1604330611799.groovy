@@ -33,7 +33,9 @@ WebUI.click(findTestObject('Object Repository/LeaveRequest_OR/Page_TAWASAL - Lea
 WebUI.setText(findTestObject('Object Repository/LeaveRequest_OR/Page_TAWASAL - Leave Request/textarea_Address and Contact no. during vac_de47c7'), 
     '69003564, chennai India')
 
-WebUI.click(findTestObject('Object Repository/LeaveRequest_OR/Page_TAWASAL - Leave Request/input_Leave Balance Date_ATCGlobalTheme_wt2_d3a1cc'))
+WebUI.click(findTestObject('LeaveRequest_OR/Page_TAWASAL - Leave Request/input_Leave Balance Date_ATCGlobalTheme_wt2_d3a1cc'))
 
 WebUI.acceptAlert()
+
+WebUI.takeFullPageScreenshot()
 
