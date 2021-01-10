@@ -6,12 +6,12 @@
    <elementGuidId>cccf5985-1077-44da-b21a-ffd9f172d56d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#ATCGlobalTheme_wt75_block_wtMainContent_wt82</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='ATCGlobalTheme_wt75_block_wtMainContent_wt82']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

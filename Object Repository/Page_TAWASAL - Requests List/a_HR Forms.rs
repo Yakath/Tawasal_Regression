@@ -6,12 +6,12 @@
    <elementGuidId>4c03617e-e2fb-4808-aa89-dfa828347f7d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='ATCGlobalTheme_wt158_block_wtMenu_EmployeeSelfServices_wt111_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem_wt17']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#ATCGlobalTheme_wt158_block_wtMenu_EmployeeSelfServices_wt111_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem_wt17</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='logout'])[1]/following::a[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

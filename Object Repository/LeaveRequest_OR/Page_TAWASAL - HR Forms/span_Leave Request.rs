@@ -6,12 +6,12 @@
    <elementGuidId>15625339-74f7-4d6b-a0c5-c8c28bedacbd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='ATCGlobalTheme_wt30_block_wtMainContent_WebPatterns_wt215_block_wtColumn2_wt102']/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#ATCGlobalTheme_wt30_block_wtMainContent_WebPatterns_wt215_block_wtColumn2_wt102 > span.Bold</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Leave Request']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

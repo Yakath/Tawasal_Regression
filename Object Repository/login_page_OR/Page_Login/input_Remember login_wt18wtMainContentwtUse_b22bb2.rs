@@ -6,12 +6,12 @@
    <elementGuidId>2d57b40c-ca46-4694-9bcc-207eee30ea84</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='wt18_wtMainContent_wtUserNameInput']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#wt18_wtMainContent_wtUserNameInput</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='wt18_wtMainContent_wtUserNameInput']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

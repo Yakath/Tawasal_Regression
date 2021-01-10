@@ -44,43 +44,43 @@
    <testCaseLink>
       <guid>fd78d19e-1316-4fac-8495-9a00fb6136df</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ResidenceInfoTransfer/ResidenceInfotransfer</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33749273-a3b3-48f2-9811-c44602d9c056</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ResidenceRenewalRequest/ResidenceRenewal_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7da064de-1fe6-4aeb-8094-1440184be161</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ResidenceTransferRequest/Resid_Trans_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>587125e1-c4cf-4aef-a9ef-38322eec903d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/SalaryCert_TC/SalaryCert-TC1</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dfd88f78-f614-4b5c-9e10-0fbe0b5ae636</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sick_Leave_Request_TC/SickLeaveRequest_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>89655ed2-b629-4679-bfde-48b6aa188716</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TrainingRequest/Trainingrequest_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c082d583-58d8-455d-9403-650b6c2e225f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TravelAuthorisation/Travel_Auth_TC</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>7441c054-c338-4da7-a3c4-22291c2e8b2a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='ATCGlobalTheme_wt119_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt140_block_wtColumn2_wtHRFormTrainingRequest_FromDate']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#ATCGlobalTheme_wt119_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt140_block_wtColumn2_wtHRFormTrainingRequest_FromDate</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

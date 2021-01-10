@@ -16,3 +16,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Login/Tawasal_login_TC_1'), [('username') : 'osama', ('password') : '123456'], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Requests List/a_HR Forms'))
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - HR Forms/span_Residence Renewal Request'))
+
+WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Residence Renewal Request/input_Passport No_ATCGlobalTheme_wt82blockw_2adf0c'), 
+    'S45566577')
+
+WebUI.click(findTestObject('ResidenceRenewal/Page_TAWASAL - Residence Renewal Request/input_End Date of Residence_ATCGlobalTheme__08d7cb'))
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Residence Renewal Request/td_17'))
+
+WebUI.closeBrowser()
+
