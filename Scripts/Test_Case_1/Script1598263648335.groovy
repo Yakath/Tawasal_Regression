@@ -22,8 +22,7 @@ WebUI.navigateToUrl('http://172.20.110.232/ATCGlobalTheme/NoPermission.aspx')
 
 WebUI.setText(findTestObject('null'), 'yakath')
 
-WebUI.setEncryptedText(findTestObject('null'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('null'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('null'))
 

@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>abff4ff9-5d82-4835-9a6c-ca0f96370507</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'username\r\n'</defaultValue>
       <description></description>
       <id>21d7fa2b-ca5c-4d5d-91cd-5eeea036c07b</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'password\t'</defaultValue>
       <description></description>
       <id>33cb25fb-626e-4cd7-9a06-cd032fa47b8b</id>
       <masked>false</masked>

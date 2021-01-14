@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_2</name>
+   <name>span_Manpower Request</name>
    <tag></tag>
-   <elementGuidId>2c1eee37-0e51-4d17-a4f3-a29a7de1f952</elementGuidId>
+   <elementGuidId>a204ae48-5dd7-4d6d-9f98-bcb318239c78</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.selected.day.today</value>
+         <key>XPATH</key>
+         <value>//a[@id='ATCGlobalTheme_wt30_block_wtMainContent_WebPatterns_wt243_block_wtColumn1_wt186']/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+         <key>CSS</key>
+         <value>#ATCGlobalTheme_wt30_block_wtMainContent_WebPatterns_wt243_block_wtColumn1_wt186 > span.Bold</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>selected day today</value>
+      <value>Bold</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>2</value>
+      <value>Manpower Request</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;calendar&quot;]/table[1]/tbody[1]/tr[@class=&quot;daysrow rowhilite&quot;]/td[@class=&quot;selected day today&quot;]</value>
+      <value>id(&quot;ATCGlobalTheme_wt30_block_wtMainContent_WebPatterns_wt243_block_wtColumn1_wt186&quot;)/span[@class=&quot;Bold&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::td[2]</value>
+      <value>//a[@id='ATCGlobalTheme_wt30_block_wtMainContent_WebPatterns_wt243_block_wtColumn1_wt186']/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::td[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Passport Request'])[1]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon, Nov 2 (today)'])[1]/preceding::td[41]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Salary Certificate'])[1]/following::span[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jan'])[1]/preceding::td[42]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Manpower Request']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/table/tbody/tr/td[2]</value>
+      <value>//div[6]/div/div/div/div[2]/a/span</value>
    </webElementXpaths>
 </WebElementEntity>

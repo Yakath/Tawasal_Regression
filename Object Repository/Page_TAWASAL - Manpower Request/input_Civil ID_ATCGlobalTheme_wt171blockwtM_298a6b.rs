@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Remember login_wt18wtMainContentwtUse_b22bb2</name>
+   <name>input_Civil ID_ATCGlobalTheme_wt171blockwtM_298a6b</name>
    <tag></tag>
-   <elementGuidId>506db6ac-04b7-4af5-98a2-dc7bfc2a6aab</elementGuidId>
+   <elementGuidId>eaf9a7da-7895-465f-a50e-71292ec79602</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#wt18_wtMainContent_wtUserNameInput</value>
+         <key>XPATH</key>
+         <value>//input[@id='ATCGlobalTheme_wt171_block_wtMainContent_WebPatterns_wtRequestInfo_block_wtContent_WebPatterns_wt336_block_wtColumn1_WebPatterns_wt373_block_wtColumn2_wt35']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='wt18_wtMainContent_wtUserNameInput']</value>
+         <key>CSS</key>
+         <value>#ATCGlobalTheme_wt171_block_wtMainContent_WebPatterns_wtRequestInfo_block_wtContent_WebPatterns_wt336_block_wtColumn1_WebPatterns_wt373_block_wtColumn2_wt35</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>wt18$wtMainContent$wtUserNameInput</value>
+      <value>ATCGlobalTheme_wt171$block$wtMainContent$WebPatterns_wtRequestInfo$block$wtContent$WebPatterns_wt336$block$wtColumn1$WebPatterns_wt373$block$wtColumn2$wt35</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,49 +42,28 @@
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>50</value>
+      <value>12</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>wt18_wtMainContent_wtUserNameInput</value>
+      <value>ATCGlobalTheme_wt171_block_wtMainContent_WebPatterns_wtRequestInfo_block_wtContent_WebPatterns_wt336_block_wtColumn1_WebPatterns_wt373_block_wtColumn2_wt35</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>OSFillParent Mandatory</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Username</value>
+      <value>121</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onkeydown</name>
       <type>Main</type>
-      <value>return OsEnterKey('wt18_wtMainContent_wtLoginButton', arguments[0] || window.event);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-required</name>
-      <type>Main</type>
-      <value>true</value>
+      <value>return OsEnterKey('ATCGlobalTheme_wt171_block_wtMainContent_wt174', arguments[0] || window.event);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -96,36 +75,29 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autofocus</name>
-      <type>Main</type>
-      <value>autofocus</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wt18_wtMainContent_wtUserNameInput&quot;)</value>
+      <value>id(&quot;ATCGlobalTheme_wt171_block_wtMainContent_WebPatterns_wtRequestInfo_block_wtContent_WebPatterns_wt336_block_wtColumn1_WebPatterns_wt373_block_wtColumn2_wt35&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='wt18_wtMainContent_wtUserNameInput']</value>
+      <value>//input[@id='ATCGlobalTheme_wt171_block_wtMainContent_WebPatterns_wtRequestInfo_block_wtContent_WebPatterns_wt336_block_wtColumn1_WebPatterns_wt373_block_wtColumn2_wt35']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='wt18_wtMainContent_wtLoginForm']/div[2]/input</value>
+      <value>//div[@id='ATCGlobalTheme_wt171_block_wtMainContent_WebPatterns_wtRequestInfo_block_wtContent_WebPatterns_wt336_block_wtColumn1_WebPatterns_wt373_block_wtColumn2']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div[2]/input</value>
+      <value>//div[3]/div/div[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

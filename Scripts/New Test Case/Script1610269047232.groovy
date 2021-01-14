@@ -15,3 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WS.getElementPropertyValue('', '')
+
+WebUI.acceptAlert()
+
+Windows.clearText(findWindowsObject(null))
+

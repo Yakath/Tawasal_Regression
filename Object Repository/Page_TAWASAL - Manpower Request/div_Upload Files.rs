@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_2</name>
+   <name>div_Upload Files</name>
    <tag></tag>
-   <elementGuidId>2c1eee37-0e51-4d17-a4f3-a29a7de1f952</elementGuidId>
+   <elementGuidId>87fc746d-1dbc-4d47-86a4-8a140e9befd9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.selected.day.today</value>
+         <key>XPATH</key>
+         <value>//div[@id='ATCGlobalTheme_wt171_block_wtMainContent_WebPatterns_wtRequestInfo_block_wtContent_wtFileInput']/div/div[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+         <key>CSS</key>
+         <value>div.qq-upload-button.qq-upload-button-focus</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Upload Files' or . = 'Upload Files')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +25,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>selected day today</value>
+      <value>qq-upload-button qq-upload-button-focus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>2</value>
+      <value>Upload Files</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;calendar&quot;]/table[1]/tbody[1]/tr[@class=&quot;daysrow rowhilite&quot;]/td[@class=&quot;selected day today&quot;]</value>
+      <value>id(&quot;ATCGlobalTheme_wt171_block_wtMainContent_WebPatterns_wtRequestInfo_block_wtContent_wtFileInput&quot;)/div[@class=&quot;qq-uploader&quot;]/div[@class=&quot;qq-upload-button qq-upload-button-focus&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::td[2]</value>
+      <value>//div[@id='ATCGlobalTheme_wt171_block_wtMainContent_WebPatterns_wtRequestInfo_block_wtContent_wtFileInput']/div/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::td[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Drop files here to upload'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon, Nov 2 (today)'])[1]/preceding::td[41]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jan'])[1]/preceding::td[42]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Drag and Drop files here to upload or click ', '&quot;', 'Upload Files', '&quot;', '')])[1]/following::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/table/tbody/tr/td[2]</value>
+      <value>//div[2]/div[2]/div/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>

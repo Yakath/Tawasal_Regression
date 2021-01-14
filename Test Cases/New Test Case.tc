@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>API</name>
+   <name>New Test Case</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ca5fae9f-e016-4459-86a7-9c0caa6339fe</testCaseGuid>
+   <testCaseGuid>efc3e59c-39ae-4db0-9e80-b0875bee1fe0</testCaseGuid>
 </TestCaseEntity>

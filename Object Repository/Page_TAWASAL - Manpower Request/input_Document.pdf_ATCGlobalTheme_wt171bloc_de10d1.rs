@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Remember login_wt18wtMainContentwtUse_b22bb2</name>
+   <name>input_Document.pdf_ATCGlobalTheme_wt171bloc_de10d1</name>
    <tag></tag>
-   <elementGuidId>506db6ac-04b7-4af5-98a2-dc7bfc2a6aab</elementGuidId>
+   <elementGuidId>4c6a59d4-b40a-4105-ada1-f30e90dc2fd2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#wt18_wtMainContent_wtUserNameInput</value>
+         <key>XPATH</key>
+         <value>//input[@id='ATCGlobalTheme_wt171_block_wtMainContent_wt250']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='wt18_wtMainContent_wtUserNameInput']</value>
+         <key>CSS</key>
+         <value>#ATCGlobalTheme_wt171_block_wtMainContent_wt250</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,108 +24,80 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>wt18$wtMainContent$wtUserNameInput</value>
+      <value>var ret = confirm('Are you sure you want to send this request for Approval?');if( ret != true ) {return false;}if (OsPage_ClientValidate('ATCGlobalTheme_wt171_block_wtMainContent_wt250')) OsAjax(arguments[0] || window.event,'ATCGlobalTheme_wt171_block_wtMainContent_wt250','ATCGlobalTheme_wt171$block$wtMainContent$wt250','','__OSVSTATE,',''); return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ATCGlobalTheme_wt171$block$wtMainContent$wt250</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>value</name>
       <type>Main</type>
-      <value>50</value>
+      <value>Submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>wt18_wtMainContent_wtUserNameInput</value>
+      <value>ATCGlobalTheme_wt171_block_wtMainContent_wt250</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>1</value>
+      <value>152</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>OSFillParent Mandatory</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Username</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onkeydown</name>
-      <type>Main</type>
-      <value>return OsEnterKey('wt18_wtMainContent_wtLoginButton', arguments[0] || window.event);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-required</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-invalid</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autofocus</name>
-      <type>Main</type>
-      <value>autofocus</value>
+      <value>Button Second Is_Default</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wt18_wtMainContent_wtUserNameInput&quot;)</value>
+      <value>id(&quot;ATCGlobalTheme_wt171_block_wtMainContent_wt250&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='wt18_wtMainContent_wtUserNameInput']</value>
+      <value>//input[@id='ATCGlobalTheme_wt171_block_wtMainContent_wt250']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='wt18_wtMainContent_wtLoginForm']/div[2]/input</value>
+      <value>//div[@id='ATCGlobalTheme_wt171_block_wtMainContent_wtSubmitContainer']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div[2]/input</value>
+      <value>//div[2]/div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>
