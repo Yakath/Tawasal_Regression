@@ -41,7 +41,7 @@
    <testCaseLink>
       <guid>061180b8-888d-43c0-89d4-21a06e91d59d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HR_Forms_Negative_Scenarios/NT_ResidenceInfotransfer_NaegativeTest</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -69,6 +69,27 @@
          <type>DATA_COLUMN</type>
          <value>residencenum</value>
          <variableId>4dee2b1f-3b22-4aae-a939-82736827a187</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bae63851-a804-432d-bf7a-e020c99217e4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HR_Forms_Negative_Scenarios/NT_LeaveRequest_TC_1</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>49da8ddb-6767-427d-9a17-5d1adc937b12</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ResienceInfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>49da8ddb-6767-427d-9a17-5d1adc937b12</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Address</value>
+         <variableId>371509d2-2917-4834-af0b-887b9a707fc7</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
