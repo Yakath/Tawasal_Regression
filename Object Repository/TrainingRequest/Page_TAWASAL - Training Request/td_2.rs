@@ -6,12 +6,12 @@
    <elementGuidId>2c1eee37-0e51-4d17-a4f3-a29a7de1f952</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.selected.day.today</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::td[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+         <key>CSS</key>
+         <value>td.selected.day.today</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

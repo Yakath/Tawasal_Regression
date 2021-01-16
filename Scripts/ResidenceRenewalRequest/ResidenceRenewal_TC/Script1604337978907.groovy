@@ -29,7 +29,5 @@ WebUI.click(findTestObject('ResidenceRenewal/Page_TAWASAL - Residence Renewal Re
 
 WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Residence Renewal Request/td_17'))
 
-WebUI.takeAreaScreenshot(null)
-
 WebUI.closeBrowser()
 
