@@ -14,4 +14,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://172.20.110.232/Tawasal')
+
+WebUI.setText(findTestObject('Object Repository/login_page_OR/Page_Login/input_Remember login_wt18wtMainContentwtUse_b22bb2'), 
+    user)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/login_page_OR/Page_Login/input_Remember login_wt18wtMainContentwtPas_3db4e9'), 
+    passwd)
+
+WebUI.click(findTestObject('Object Repository/login_page_OR/Page_Login/input_Remember login_wt18wtMainContentwtLog_539a3d'))
 

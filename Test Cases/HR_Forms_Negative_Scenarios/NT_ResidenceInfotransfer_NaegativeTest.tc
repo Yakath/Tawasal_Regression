@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NT_ResidenceInfotransfer_NaegativeTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f82d3f75-6168-443c-a6a6-45b0b2df3edb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0f14e40d-6c63-47c5-990f-a0ca3b8295df</id>
+      <masked>false</masked>
+      <name>oldpassportnum</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>272971b3-a470-4c5f-b978-5b8b2b801148</id>
+      <masked>false</masked>
+      <name>newpassportnum</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4dee2b1f-3b22-4aae-a939-82736827a187</id>
+      <masked>false</masked>
+      <name>residencenum</name>
+   </variable>
+</TestCaseEntity>

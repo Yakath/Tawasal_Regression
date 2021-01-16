@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NT_Tawasal_login_TC_1_Negative</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>873f0840-b9ec-4aad-80b9-26fbaee06ea9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7e6f6309-8916-4cc9-93d2-02579e612997</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fcbdd383-7990-4700-80d3-dfac3a5152a3</id>
+      <masked>false</masked>
+      <name>passwd</name>
+   </variable>
+</TestCaseEntity>

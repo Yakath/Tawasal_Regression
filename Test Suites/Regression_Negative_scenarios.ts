@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Regression_Negative_scenarios</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>b6e52dce-c287-495a-b8b3-050821f3cc2b</testSuiteGuid>
+   <testCaseLink>
+      <guid>0f1de2ee-606c-4f70-8cb6-fd246228b153</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/HR_Forms_Negative_Scenarios/NT_Tawasal_login_TC_1_Negative</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>64e20868-c4ea-40de-b44d-d687eb6ea835</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Negative_login_data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>64e20868-c4ea-40de-b44d-d687eb6ea835</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>7e6f6309-8916-4cc9-93d2-02579e612997</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>64e20868-c4ea-40de-b44d-d687eb6ea835</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>fcbdd383-7990-4700-80d3-dfac3a5152a3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>061180b8-888d-43c0-89d4-21a06e91d59d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HR_Forms_Negative_Scenarios/NT_ResidenceInfotransfer_NaegativeTest</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>01ab8167-b493-47ba-9e6b-c26b13ffeb40</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ResienceInfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>01ab8167-b493-47ba-9e6b-c26b13ffeb40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>oldpassportnum</value>
+         <variableId>0f14e40d-6c63-47c5-990f-a0ca3b8295df</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01ab8167-b493-47ba-9e6b-c26b13ffeb40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newpassportnum</value>
+         <variableId>272971b3-a470-4c5f-b978-5b8b2b801148</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01ab8167-b493-47ba-9e6b-c26b13ffeb40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>residencenum</value>
+         <variableId>4dee2b1f-3b22-4aae-a939-82736827a187</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
