@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_please enter the contact number that _bfad8b</name>
+   <name>input_Leave Balance Date_ATCGlobalTheme_wt2_d3a1cc</name>
    <tag></tag>
-   <elementGuidId>cccf5985-1077-44da-b21a-ffd9f172d56d</elementGuidId>
+   <elementGuidId>8928671d-52ac-4372-a251-f9b897b77193</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ATCGlobalTheme_wt75_block_wtMainContent_wt82']</value>
+         <value>//input[@id='ATCGlobalTheme_wt255_block_wtMainContent_wt156']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ATCGlobalTheme_wt75_block_wtMainContent_wt82</value>
+         <value>#ATCGlobalTheme_wt255_block_wtMainContent_wt156</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>var ret = confirm('Your direct manager will be notified to review and confirm your clearance deatails');if( ret != true ) {return false;}</value>
+      <value>var ret = confirm('Are you sure you want to send this request for Approval?');if( ret != true ) {return false;}OsAjax(arguments[0] || window.event,'ATCGlobalTheme_wt255_block_wtMainContent_wt156','ATCGlobalTheme_wt255$block$wtMainContent$wt156','','__OSVSTATE,',''); return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,62 +42,62 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ATCGlobalTheme_wt75$block$wtMainContent$wt82</value>
+      <value>ATCGlobalTheme_wt255$block$wtMainContent$wt156</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Save and Print</value>
+      <value>Submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ATCGlobalTheme_wt75_block_wtMainContent_wt82</value>
+      <value>ATCGlobalTheme_wt255_block_wtMainContent_wt156</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>130</value>
+      <value>137</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>Button Save ButtonBorder ThemeGrid_MarginGutter</value>
+      <value>Button Second Is_Default</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ATCGlobalTheme_wt75_block_wtMainContent_wt82&quot;)</value>
+      <value>id(&quot;ATCGlobalTheme_wt255_block_wtMainContent_wt156&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ATCGlobalTheme_wt75_block_wtMainContent_wt82']</value>
+      <value>//input[@id='ATCGlobalTheme_wt255_block_wtMainContent_wt156']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ATCGlobalTheme_wt75_block_wtMainContent_wtPopupContainer']/div/input[2]</value>
+      <value>//div[@id='ATCGlobalTheme_wt255_block_wtMainContent_wtSubmitContainer']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input[2]</value>
+      <value>//div[2]/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

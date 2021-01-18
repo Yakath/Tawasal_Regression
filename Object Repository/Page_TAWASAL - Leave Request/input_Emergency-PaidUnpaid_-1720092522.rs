@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_please enter the contact number that _bfad8b</name>
+   <name>input_Emergency-PaidUnpaid_-1720092522</name>
    <tag></tag>
-   <elementGuidId>cccf5985-1077-44da-b21a-ffd9f172d56d</elementGuidId>
+   <elementGuidId>cdd089e6-400d-47df-9210-bc19d2ba4097</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ATCGlobalTheme_wt75_block_wtMainContent_wt82']</value>
+         <value>//input[@id='ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt219_block_wtColumn2_wt263']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ATCGlobalTheme_wt75_block_wtMainContent_wt82</value>
+         <value>#ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt219_block_wtColumn2_wt263</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,80 +24,80 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>var ret = confirm('Your direct manager will be notified to review and confirm your clearance deatails');if( ret != true ) {return false;}</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>radio</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ATCGlobalTheme_wt75$block$wtMainContent$wt82</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Save and Print</value>
+      <value>-1720092522</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ATCGlobalTheme_wt75_block_wtMainContent_wt82</value>
+      <value>ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt219_block_wtColumn2_wt263</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>130</value>
+      <value>120</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>value</name>
       <type>Main</type>
-      <value>Button Save ButtonBorder ThemeGrid_MarginGutter</value>
+      <value>1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onkeydown</name>
+      <type>Main</type>
+      <value>return OsEnterKey('ATCGlobalTheme_wt255_block_wtMainContent_wt156', arguments[0] || window.event);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>OsAjax(arguments[0] || window.event,'ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt219_block_wtColumn2_wt263','ATCGlobalTheme_wt255$block$wtMainContent$WebPatterns_wtMoreInfo$block$wtContent$WebPatterns_wt74$block$wtColumn1$WebPatterns_wt219$block$wtColumn2$wt263','Change','__OSVSTATE,','');</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ATCGlobalTheme_wt75_block_wtMainContent_wt82&quot;)</value>
+      <value>id(&quot;ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt219_block_wtColumn2_wt263&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ATCGlobalTheme_wt75_block_wtMainContent_wt82']</value>
+      <value>//input[@id='ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt219_block_wtColumn2_wt263']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ATCGlobalTheme_wt75_block_wtMainContent_wtPopupContainer']/div/input[2]</value>
+      <value>//div[@id='ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt219_block_wtColumn2_wtEmergency']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input[2]</value>
+      <value>//div/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

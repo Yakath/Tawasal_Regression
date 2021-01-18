@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>0f1de2ee-606c-4f70-8cb6-fd246228b153</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/HR_Forms_Negative_Scenarios/NT_Tawasal_login_TC_1_Negative</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -41,7 +41,7 @@
    <testCaseLink>
       <guid>061180b8-888d-43c0-89d4-21a06e91d59d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/HR_Forms_Negative_Scenarios/NT_ResidenceInfotransfer_NaegativeTest</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -72,24 +72,63 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>bae63851-a804-432d-bf7a-e020c99217e4</guid>
+      <guid>1f330281-ab78-4269-8cd8-e824629fdc1d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HR_Forms_Negative_Scenarios/NT_LeaveRequest_TC_1</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>49da8ddb-6767-427d-9a17-5d1adc937b12</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/ResienceInfo</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>49da8ddb-6767-427d-9a17-5d1adc937b12</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Address</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>371509d2-2917-4834-af0b-887b9a707fc7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a3417356-e740-4215-9db1-96462d925ef7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HR_Forms_Negative_Scenarios/NT_PhoneInternetServiceRequest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf1d63fd-b7e3-47c8-835f-015c3b85134e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HR_Forms_Negative_Scenarios/NT_ResidenceRenewal_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>59f588b2-5662-4e1a-9503-cdc3ba82240a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HR_Forms_Negative_Scenarios/NT_SalaryCert-TC1</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e5ee3d84-45d6-470c-8e87-90c42b4cddbc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HR_Forms_Negative_Scenarios/NT_SickLeaveRequest_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f033978e-190b-46dd-9fe6-b2c506a673dd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HR_Forms_Negative_Scenarios/NT_Tawasal_HRForms_BC_TC_2</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e734c444-9d12-4e08-a7c5-9121f3ed6f92</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HR_Forms_Negative_Scenarios/NT_Tawasal_login_TC_1_Negative</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7e6f6309-8916-4cc9-93d2-02579e612997</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fcbdd383-7990-4700-80d3-dfac3a5152a3</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

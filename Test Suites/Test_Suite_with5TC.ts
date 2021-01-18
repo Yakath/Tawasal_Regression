@@ -17,16 +17,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/Tawasal_login_TC_1</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>d7b39a3e-789c-4721-8d4f-bfe51117b2fd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BusinessCardTC/Tawasal_HRForms_BC_TC_2</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>146f80da-9fe0-4e43-af04-349fdc4093e0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/pHoneInternetServicerequest/PhoneInternetServiceRequest</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

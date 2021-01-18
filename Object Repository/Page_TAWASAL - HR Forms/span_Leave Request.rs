@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_please enter the contact number that _bfad8b</name>
+   <name>span_Leave Request</name>
    <tag></tag>
-   <elementGuidId>cccf5985-1077-44da-b21a-ffd9f172d56d</elementGuidId>
+   <elementGuidId>0187ff35-fc88-4f2a-a5ea-ddc7107cea99</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ATCGlobalTheme_wt75_block_wtMainContent_wt82']</value>
+         <value>//a[@id='ATCGlobalTheme_wt30_block_wtMainContent_WebPatterns_wt215_block_wtColumn2_wt102']/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ATCGlobalTheme_wt75_block_wtMainContent_wt82</value>
+         <value>#ATCGlobalTheme_wt30_block_wtMainContent_WebPatterns_wt215_block_wtColumn2_wt102 > span.Bold</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,83 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>var ret = confirm('Your direct manager will be notified to review and confirm your clearance deatails');if( ret != true ) {return false;}</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>ATCGlobalTheme_wt75$block$wtMainContent$wt82</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Save and Print</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>ATCGlobalTheme_wt75_block_wtMainContent_wt82</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>130</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>Button Save ButtonBorder ThemeGrid_MarginGutter</value>
+      <value>Bold</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leave Request</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ATCGlobalTheme_wt75_block_wtMainContent_wt82&quot;)</value>
+      <value>id(&quot;ATCGlobalTheme_wt30_block_wtMainContent_WebPatterns_wt215_block_wtColumn2_wt102&quot;)/span[@class=&quot;Bold&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@id='ATCGlobalTheme_wt75_block_wtMainContent_wt82']</value>
+      <value>//a[@id='ATCGlobalTheme_wt30_block_wtMainContent_WebPatterns_wt215_block_wtColumn2_wt102']/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='ATCGlobalTheme_wt75_block_wtMainContent_wtPopupContainer']/div/input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Leave, Travel, or Training)'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resuming Office Duty'])[1]/following::span[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sick Leave Request'])[1]/preceding::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Residence Transfer Request'])[1]/preceding::span[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Leave Request']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input[2]</value>
+      <value>//div[2]/div[2]/div/div/div[2]/a/span</value>
    </webElementXpaths>
 </WebElementEntity>

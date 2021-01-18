@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_18</name>
+   <name>div_12</name>
    <tag></tag>
-   <elementGuidId>59fbdebd-68af-49de-b390-dcbef7540a1d</elementGuidId>
+   <elementGuidId>f2bc50ae-a54e-4a6d-a638-43a4d4ecc27b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tbody/tr[3]/td[4]</value>
+         <value>//div[@id='ATCGlobalTheme_wt255_block_wtMainContent_wt61_WebPatterns_wt4_block_wtColumn1_ATCTheme_wt1_block_wtDisplay']/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>td.hilite.day.hilite.selected</value>
+         <value>div.DisplayStepCount.OSInline</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>hilite day hilite selected</value>
+      <value>DisplayStepCount OSInline</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>18</value>
+      <value>1/2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;calendar&quot;]/table[1]/tbody[1]/tr[@class=&quot;daysrow rowhilite&quot;]/td[@class=&quot;hilite day hilite selected&quot;]</value>
+      <value>id(&quot;ATCGlobalTheme_wt255_block_wtMainContent_wt61_WebPatterns_wt4_block_wtColumn1_ATCTheme_wt1_block_wtDisplay&quot;)/div[@class=&quot;DisplayStepCount OSInline&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::td[18]</value>
+      <value>//div[@id='ATCGlobalTheme_wt255_block_wtMainContent_wt61_WebPatterns_wt4_block_wtColumn1_ATCTheme_wt1_block_wtDisplay']/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::td[19]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='fadi'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wed, Nov 18'])[1]/preceding::td[25]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending'])[1]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jan'])[1]/preceding::td[26]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic Info'])[1]/preceding::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='18']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='1/2']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tbody/tr[3]/td[4]</value>
+      <value>//div/div/div/div/div/div/div/span/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

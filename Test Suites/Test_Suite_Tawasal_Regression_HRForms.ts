@@ -18,69 +18,75 @@
       <testCaseId>Test Cases/Login/Tawasal_login_TC_1</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>42b0a5cc-0760-47c6-8a89-0f80672b3438</guid>
+      <guid>a7fc445c-b05f-40ea-9c8f-3bfb83bc1ce9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BusinessCardTC/Tawasal_HRForms_BC_TC_2</testCaseId>
+      <testCaseId>Test Cases/HR_Forms_Regression/BusinessCard_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3649d54c-e690-43a0-8165-a308fb1a269e</guid>
+      <guid>daf607dc-765e-4caf-b21d-29090062368f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LeaveRequest_TC/LeaveRequest_TC_1</testCaseId>
+      <testCaseId>Test Cases/HR_Forms_Regression/Clearance_Certificate_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>841b5b69-6127-42c4-a7bd-c662a4da6b90</guid>
+      <guid>982a8c41-1e7a-4cdd-bbfe-d05dfc33f8a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ManpowerRequest/ManpowerRequest_TC</testCaseId>
+      <testCaseId>Test Cases/HR_Forms_Regression/LeaveRequest_TC_1</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7a699d10-2bbe-4799-a858-3a298abc7be3</guid>
+      <guid>d8797254-061e-4551-8f29-f74b1f5b9ccc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/pHoneInternetServicerequest/PhoneInternetServiceRequest</testCaseId>
+      <testCaseId>Test Cases/HR_Forms_Regression/ManpowerRequest_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fd78d19e-1316-4fac-8495-9a00fb6136df</guid>
+      <guid>34c146d0-65ff-4733-baca-8be1164ef1bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ResidenceInfoTransfer/ResidenceInfotransfer</testCaseId>
+      <testCaseId>Test Cases/HR_Forms_Regression/PhoneInternetServiceRequest</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>33749273-a3b3-48f2-9811-c44602d9c056</guid>
+      <guid>4f406daf-ab21-4976-b573-34a7cbc63f20</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ResidenceRenewalRequest/ResidenceRenewal_TC</testCaseId>
+      <testCaseId>Test Cases/HR_Forms_Regression/ResidenceInfotransfer</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7da064de-1fe6-4aeb-8094-1440184be161</guid>
+      <guid>3675853c-90b8-4c31-a3be-9fa91ef01b34</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ResidenceTransferRequest/Resid_Trans_TC</testCaseId>
+      <testCaseId>Test Cases/HR_Forms_Regression/ResidenceRenewal_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>587125e1-c4cf-4aef-a9ef-38322eec903d</guid>
+      <guid>b4eebb75-2806-40c5-8d40-aa4a2a640bd4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SalaryCert_TC/SalaryCert-TC1</testCaseId>
+      <testCaseId>Test Cases/HR_Forms_Regression/Resid_Trans_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>dfd88f78-f614-4b5c-9e10-0fbe0b5ae636</guid>
+      <guid>6855b7a3-e08e-4ebb-ac98-21102736bae1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sick_Leave_Request_TC/SickLeaveRequest_TC</testCaseId>
+      <testCaseId>Test Cases/HR_Forms_Regression/SalaryCert-TC1</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>89655ed2-b629-4679-bfde-48b6aa188716</guid>
+      <guid>397271e0-8059-4478-b093-8b2b45ec90f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TrainingRequest/Trainingrequest_TC</testCaseId>
+      <testCaseId>Test Cases/HR_Forms_Regression/SickLeaveRequest_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c082d583-58d8-455d-9403-650b6c2e225f</guid>
+      <guid>a9e53702-7619-48e6-96c4-ac405c3d0568</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TravelAuthorisation/Travel_Auth_TC</testCaseId>
+      <testCaseId>Test Cases/HR_Forms_Regression/Trainingrequest_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bdd3dcd7-cb95-45e4-8947-2f0e23efb61e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HR_Forms_Regression/Travel_Auth_TC</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Clearance Date_ATCGlobalTheme_wt75blo_a2308d</name>
+   <name>input_From_ATCGlobalTheme_wt255blockwtMainC_6af76b</name>
    <tag></tag>
-   <elementGuidId>9991458a-5b7e-42f8-9f97-d3b12c33f475</elementGuidId>
+   <elementGuidId>f84fc0e3-c01e-48f1-bb50-840a42d1b178</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ATCGlobalTheme_wt75_block_wtMainContent_WebPatterns_wtAdditionalInfo_block_wtContent_WebPatterns_wt28_block_wtColumn2_wttxtRESDate2']</value>
+         <value>//input[@id='ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt37_block_wtColumn2_wttxtFrom']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ATCGlobalTheme_wt75_block_wtMainContent_WebPatterns_wtAdditionalInfo_block_wtContent_WebPatterns_wt28_block_wtColumn2_wttxtRESDate2</value>
+         <value>#ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt37_block_wtColumn2_wttxtFrom</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ATCGlobalTheme_wt75$block$wtMainContent$WebPatterns_wtAdditionalInfo$block$wtContent$WebPatterns_wt28$block$wtColumn2$wttxtRESDate2</value>
+      <value>ATCGlobalTheme_wt255$block$wtMainContent$WebPatterns_wtMoreInfo$block$wtContent$WebPatterns_wt74$block$wtColumn1$WebPatterns_wt37$block$wtColumn2$wttxtFrom</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,37 +40,44 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>31-01-2021</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>20</value>
+      <value>50</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ATCGlobalTheme_wt75_block_wtMainContent_WebPatterns_wtAdditionalInfo_block_wtContent_WebPatterns_wt28_block_wtColumn2_wttxtRESDate2</value>
+      <value>ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt37_block_wtColumn2_wttxtFrom</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>121</value>
+      <value>126</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>First ThemeGrid_Margin1First Mandatory Mandatory SmartInput</value>
+      <value>ThemeGrid_Width11 Mandatory Mandatory</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onkeydown</name>
       <type>Main</type>
-      <value>return OsEnterKey('ATCGlobalTheme_wt75_block_wtMainContent_wtPrint', arguments[0] || window.event);</value>
+      <value>return OsEnterKey('ATCGlobalTheme_wt255_block_wtMainContent_wt156', arguments[0] || window.event);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,6 +94,20 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onoschange</name>
+      <type>Main</type>
+      <value>OsAjaxDelayed(null,'ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt37_block_wtColumn2_wttxtFrom','ATCGlobalTheme_wt255$block$wtMainContent$WebPatterns_wtMoreInfo$block$wtContent$WebPatterns_wt74$block$wtColumn1$WebPatterns_wt37$block$wtColumn2$wttxtFrom','Change','__OSVSTATE,',osOnChangeTimerDelay);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>OsAjaxDelayed(null,'ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt37_block_wtColumn2_wttxtFrom','ATCGlobalTheme_wt255$block$wtMainContent$WebPatterns_wtMoreInfo$block$wtContent$WebPatterns_wt74$block$wtColumn1$WebPatterns_wt37$block$wtColumn2$wttxtFrom','Change','__OSVSTATE,',0);</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
@@ -96,43 +117,29 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocorrect</name>
-      <type>Main</type>
-      <value>on</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>spellcheck</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ATCGlobalTheme_wt75_block_wtMainContent_WebPatterns_wtAdditionalInfo_block_wtContent_WebPatterns_wt28_block_wtColumn2_wttxtRESDate2&quot;)</value>
+      <value>id(&quot;ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt37_block_wtColumn2_wttxtFrom&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ATCGlobalTheme_wt75_block_wtMainContent_WebPatterns_wtAdditionalInfo_block_wtContent_WebPatterns_wt28_block_wtColumn2_wttxtRESDate2']</value>
+      <value>//input[@id='ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt37_block_wtColumn2_wttxtFrom']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='ATCGlobalTheme_wt75_block_wtMainContent_WebPatterns_wtAdditionalInfo_block_wtContent_WebPatterns_wt28_block_wtColumn2_wttxtRESDate2AjaxRfrsh']/input</value>
+      <value>//div[@id='ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt37_block_wtColumn2_ctl10']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
+      <value>//div[2]/div/div[2]/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>
