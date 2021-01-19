@@ -13,8 +13,10 @@ steps:
 
 
 - task: katalonTask@0
+  displayName: Executing katalon Studio Test Suite
   inputs:
     version: '7.8.2'
-    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Tawasal_Regression_HRForms"'
+    
+    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Tawasal_Regression_HRForms" -apikey="784be99d-43ea-4469-912f-1ac4aff9adf5"'
 
 
