@@ -10,13 +10,12 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-
-
-- task: katalonTask@0
-  displayName: Executing katalon Studio Test Suite
+- script: docker pull katalonstudio/katalon
+  displayName: 'Pull katalon studio images'
+- script: docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon katalon-execute.sh -browserType="Firefox" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_5TC" -apikey="784be99d-43ea-4469-912f-1ac4aff9adf5"
+  displayName: 'Runnning Katalon Test Suites/TestSuite'
+- task: PublishPipelineArtifact@0
   inputs:
-    version: '7.8.2'
-    
-    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Tawasal_Regression_HRForms" -apikey="784be99d-43ea-4469-912f-1ac4aff9adf5"'
-
+    artifactName: 'JUnit Report' 
+    targetPath: report/
 
