@@ -10,9 +10,11 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+
+
 - task: katalonTask@0
-inputs:
-version: '7.8.2'
-executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Tawasal_Regression_HRForms"'
+  inputs:
+    version: '7.8.2'
+    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test_Suite_Tawasal_Regression_HRForms"'
 
 
