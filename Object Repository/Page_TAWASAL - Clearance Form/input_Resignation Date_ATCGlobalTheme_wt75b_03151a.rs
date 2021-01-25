@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>122</value>
+      <value>150</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

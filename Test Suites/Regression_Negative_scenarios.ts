@@ -50,7 +50,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ResienceInfo</testDataId>
+         <testDataId>Data Files/Test_Data_Negative</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>01ab8167-b493-47ba-9e6b-c26b13ffeb40</testDataLinkId>

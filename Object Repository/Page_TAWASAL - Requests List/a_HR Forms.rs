@@ -7,11 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='ATCGlobalTheme_wt158_block_wtMenu_EmployeeSelfServices_wt111_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem_wt17']</value>
+         <value>//a[@id='ATCGlobalTheme_wt159_block_wtMenu_EmployeeSelfServices_wt109_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem_wt17']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ATCGlobalTheme_wt158_block_wtMenu_EmployeeSelfServices_wt111_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem_wt17</value>
+         <value>#ATCGlobalTheme_wt159_block_wtMenu_EmployeeSelfServices_wt109_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem_wt17</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'ATCGlobalTheme_wt158_block_wtMenu_EmployeeSelfServices_wt111_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem_wt17' and @href = '\Tawasal\hrforms.aspx' and (text() = 'HR Forms' or . = 'HR Forms')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ATCGlobalTheme_wt158_block_wtMenu_EmployeeSelfServices_wt111_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem_wt17</value>
+      <value>ATCGlobalTheme_wt159_block_wtMenu_EmployeeSelfServices_wt109_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem_wt17</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,21 +63,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ATCGlobalTheme_wt158_block_wtMenu_EmployeeSelfServices_wt111_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem_wt17&quot;)</value>
+      <value>id(&quot;ATCGlobalTheme_wt159_block_wtMenu_EmployeeSelfServices_wt109_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem_wt17&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='ATCGlobalTheme_wt158_block_wtMenu_EmployeeSelfServices_wt111_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem_wt17']</value>
+      <value>//a[@id='ATCGlobalTheme_wt159_block_wtMenu_EmployeeSelfServices_wt109_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem_wt17']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ATCGlobalTheme_wt158_block_wtMenu_EmployeeSelfServices_wt111_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem']/a</value>
+      <value>//div[@id='ATCGlobalTheme_wt159_block_wtMenu_EmployeeSelfServices_wt109_block_wtMenuListRecords_ctl02_RichWidgets_wt24_block_wtMenuItem']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +112,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Requests List'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Site Visits'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

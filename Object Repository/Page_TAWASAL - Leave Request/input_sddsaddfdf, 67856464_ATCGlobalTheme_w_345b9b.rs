@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ATCGlobalTheme_wt255_block_wtMainContent_wt147_wt17']</value>
+         <value>//div[2]/div/div/input</value>
       </entry>
       <entry>
          <key>CSS</key>

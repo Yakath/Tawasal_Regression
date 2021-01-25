@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='ATCGlobalTheme_wt255_block_wtMainContent_wt61_WebPatterns_wt4_block_wtColumn1_ATCTheme_wt1_block_wtDisplay']/div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending'])[1]/preceding::div[3]</value>
       </entry>
       <entry>
          <key>CSS</key>

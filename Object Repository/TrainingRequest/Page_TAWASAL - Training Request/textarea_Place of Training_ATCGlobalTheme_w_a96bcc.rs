@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='ATCGlobalTheme_wt119_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt9_block_wtColumn2_wtHRFormTrainingRequest_PlaceOfTraining']</value>
+         <value>//div[2]/div/div[2]/div/div/textarea</value>
       </entry>
       <entry>
          <key>CSS</key>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ATCGlobalTheme_wt66_block_wtMainContent_WebPatterns_wtBasicInfo_block_wtContent_WebPatterns_wt95_block_wtColumn2_wtFormResidenceRenewal_PassportNo']</value>
+         <value>//div/div/input</value>
       </entry>
       <entry>
          <key>CSS</key>
