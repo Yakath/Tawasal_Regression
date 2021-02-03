@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://172.20.110.232/ATCGlobalTheme/NoPermission.aspx')
+WebUI.navigateToUrl('https://172.20.110.232/ATCGlobalTheme/Login.aspx')
 
 WebUI.setText(findTestObject('Object Repository/Page_Login/input_Remember login_wt18wtMainContentwtUse_b22bb2'), 'osama')
 
