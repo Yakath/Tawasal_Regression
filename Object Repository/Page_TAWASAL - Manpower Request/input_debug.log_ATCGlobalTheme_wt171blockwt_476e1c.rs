@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Annual_-1720092522</name>
+   <name>input_debug.log_ATCGlobalTheme_wt171blockwt_476e1c</name>
    <tag></tag>
-   <elementGuidId>c082e039-5ddf-4cd7-b76d-966f526c29b1</elementGuidId>
+   <elementGuidId>3e2a5322-6abb-4180-a8c1-5a9a6a18b8aa</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'ATCGlobalTheme_wt171$block$wtMainContent$wt250' and @id = 'ATCGlobalTheme_wt171_block_wtMainContent_wt250']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div/div/input</value>
+         <value>//input[@id='ATCGlobalTheme_wt171_block_wtMainContent_wt250']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt219_block_wtColumn2_wt270</value>
+         <value>#ATCGlobalTheme_wt171_block_wtMainContent_wt250</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,80 +28,80 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>var ret = confirm('Are you sure you want to send this request for Approval?');if( ret != true ) {return false;}if (OsPage_ClientValidate('ATCGlobalTheme_wt171_block_wtMainContent_wt250')) OsAjax(arguments[0] || window.event,'ATCGlobalTheme_wt171_block_wtMainContent_wt250','ATCGlobalTheme_wt171$block$wtMainContent$wt250','','__OSVSTATE,',''); return false;</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>radio</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>-1720092522</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt219_block_wtColumn2_wt270</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>119</value>
+      <value>ATCGlobalTheme_wt171$block$wtMainContent$wt250</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>5</value>
+      <value>Submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ATCGlobalTheme_wt171_block_wtMainContent_wt250</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onkeydown</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>return OsEnterKey('ATCGlobalTheme_wt255_block_wtMainContent_wt156', arguments[0] || window.event);</value>
+      <value>180</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>class</name>
       <type>Main</type>
-      <value>OsAjax(arguments[0] || window.event,'ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt219_block_wtColumn2_wt270','ATCGlobalTheme_wt255$block$wtMainContent$WebPatterns_wtMoreInfo$block$wtContent$WebPatterns_wt74$block$wtColumn1$WebPatterns_wt219$block$wtColumn2$wt270','Change','__OSVSTATE,','');</value>
+      <value>Button Second Is_Default</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt219_block_wtColumn2_wt270&quot;)</value>
+      <value>id(&quot;ATCGlobalTheme_wt171_block_wtMainContent_wt250&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt219_block_wtColumn2_wt270']</value>
+      <value>//input[@id='ATCGlobalTheme_wt171_block_wtMainContent_wt250']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ATCGlobalTheme_wt255_block_wtMainContent_WebPatterns_wtMoreInfo_block_wtContent_WebPatterns_wt74_block_wtColumn1_WebPatterns_wt219_block_wtColumn2_wtAnnual']/input</value>
+      <value>//div[@id='ATCGlobalTheme_wt171_block_wtMainContent_wtSubmitContainer']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/input</value>
+      <value>//div[2]/div/div/div[2]/div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

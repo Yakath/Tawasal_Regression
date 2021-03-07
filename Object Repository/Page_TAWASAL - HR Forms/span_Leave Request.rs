@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='ATCGlobalTheme_wt30_block_wtMainContent_WebPatterns_wt215_block_wtColumn2_wt102']/span</value>
+         <value>//*/text()[normalize-space(.)='Leave Request']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>

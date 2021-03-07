@@ -18,24 +18,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Tawasal_login_TC_1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/LeaveRequest_OR/Page_TAWASAL - HR Forms/span_Leave Request'))
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Requests List/a_HR Forms'))
 
-WebUI.click(findTestObject('Object Repository/LeaveRequest_OR/Page_TAWASAL - Leave Request/input_Annual_-1720092522'))
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - HR Forms/span_Leave Request'))
 
-WebUI.click(findTestObject('Object Repository/LeaveRequest_OR/Page_TAWASAL - Leave Request/input_From_ATCGlobalTheme_wt255blockwtMainC_6af76b'))
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Leave Request/input_Annual_-1720092522_1'))
 
-WebUI.click(findTestObject('Object Repository/LeaveRequest_OR/Page_TAWASAL - Leave Request/td_18'))
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Leave Request/input_From_ATCGlobalTheme_wt30blockwtMainCo_1b6db0'))
 
-WebUI.click(findTestObject('Object Repository/LeaveRequest_OR/Page_TAWASAL - Leave Request/input_To_ATCGlobalTheme_wt255blockwtMainCon_2d8d7e'))
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Leave Request/td_23'))
 
-WebUI.click(findTestObject('Object Repository/LeaveRequest_OR/Page_TAWASAL - Leave Request/td_26'))
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Leave Request/input_To_ATCGlobalTheme_wt30blockwtMainCont_34107d'))
 
-WebUI.setText(findTestObject('Object Repository/LeaveRequest_OR/Page_TAWASAL - Leave Request/textarea_Address and Contact no. during vac_de47c7'), 
-    '69003564, chennai India')
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Leave Request/td_31'))
 
-WebUI.click(findTestObject('LeaveRequest_OR/Page_TAWASAL - Leave Request/input_Leave Balance Date_ATCGlobalTheme_wt2_d3a1cc'))
+WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Leave Request/textarea_Address and Contact no. during vac_0eae76'), 
+    'chennai 600003')
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Leave Request/input_Leave Balance Date_ATCGlobalTheme_wt3_bf5753'))
 
-WebUI.takeFullPageScreenshot()
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Leave Request/input_Applicable from 1st Sept. 2020._RichWidgets_wt7blockwtMainContentwt8'))
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Leave Request/input_I confirm that I have read, understoo_c94990'))
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_26</name>
+   <name>td_17</name>
    <tag></tag>
-   <elementGuidId>f2e70aff-b8b1-44c4-83bc-f514bfefbb36</elementGuidId>
+   <elementGuidId>8cea6331-3259-447d-9523-e7a2a2497b12</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[2]/following::td[26]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[2]/following::td[18]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>26</value>
+      <value>17</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,34 +49,34 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[2]/following::td[26]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[2]/following::td[18]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[2]/following::td[27]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[2]/following::td[19]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thu, Nov 26'])[1]/preceding::td[17]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wed, Mar 17'])[1]/preceding::td[25]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jan'])[2]/preceding::td[18]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jan'])[2]/preceding::td[26]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/table/tbody/tr[4]/td[5]</value>
+      <value>//div[4]/table/tbody/tr[3]/td[4]</value>
    </webElementXpaths>
 </WebElementEntity>

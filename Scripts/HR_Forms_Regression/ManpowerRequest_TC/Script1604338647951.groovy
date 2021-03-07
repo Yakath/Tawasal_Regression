@@ -18,40 +18,37 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Tawasal_login_TC_1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_TAWASAL - Requests List/a_HR Forms'))
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Requests List/a_HR Forms'))
 
-WebUI.click(findTestObject('Page_TAWASAL - HR Forms/span_Manpower Request'))
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - HR Forms/span_Manpower Request'))
 
 WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Manpower Request/input_Name_ATCGlobalTheme_wt171blockwtMainC_a92b57'), 
     'Ravi')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TAWASAL - Manpower Request/select_AmericanArmenianAustralianBahrainiBa_7c6b65'), 
-    '1', true)
+    '9', true)
 
 WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Manpower Request/input_Civil ID_ATCGlobalTheme_wt171blockwtM_298a6b'), 
-    '288454545454')
+    '234344564656')
 
 WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Manpower Request/input_Passport No_ATCGlobalTheme_wt171block_da061a'), 
-    'S232324')
+    'S4545566')
 
 WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Manpower Request/input_PhoneMobile_ATCGlobalTheme_wt171block_b2c42c'), 
-    '67893456')
+    '56777767')
 
 WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Manpower Request/textarea_Job Description_ATCGlobalTheme_wt1_a3431a'), 
-    'IT tehcnicain')
+    'Testing')
 
 WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Manpower Request/input_Email_ATCGlobalTheme_wt171blockwtMain_b80be9'), 
-    'ravi@gmail.com')
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TAWASAL - Manpower Request/select_6504 - Develop  Implement Dept Inter_9e860a'), 
-    '6503 - Develop & Implement Dept Service  ', true)
+    'smail@mail.com')
 
 WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Manpower Request/input_Job Title_ATCGlobalTheme_wt171blockwt_e62b8b'), 
-    'sr.Engineer')
+    'Sr Engineer')
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Manpower Request/input_debug.log_ATCGlobalTheme_wt171blockwt_476e1c'))
+
+WebUI.click(findTestObject(''))
 
 WebUI.uploadFile(findTestObject('Page_TAWASAL - Manpower Request/div_Upload Files'), 'C:\\Users\\Lenovo\\Documents\\datepicker\\datepicker.txt')
-
-WebUI.click(findTestObject('Page_TAWASAL - Manpower Request/input_Upload Files_ATCGlobalTheme_wt171blockwtMainContentwt250'))
-
-WebUI.acceptAlert()
 

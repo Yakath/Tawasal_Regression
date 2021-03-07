@@ -40,3 +40,5 @@ WebUI.click(findTestObject('Object Repository/TrainingRequest/Page_TAWASAL - Tra
 
 WebUI.acceptAlert()
 
+WebUI.closeBrowser()
+

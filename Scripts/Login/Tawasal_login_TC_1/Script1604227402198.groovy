@@ -28,5 +28,3 @@ WebUI.setEncryptedText(findTestObject('Object Repository/login_page_OR/Page_Logi
 
 WebUI.click(findTestObject('Object Repository/login_page_OR/Page_Login/input_Remember login_wt18wtMainContentwtLog_539a3d'))
 
-WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Requests List/a_HR Forms'))
-

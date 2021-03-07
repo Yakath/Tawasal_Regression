@@ -18,7 +18,41 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Tawasal_login_TC_1'), [('username') : 'osama', ('password') : '123456'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_TAWASAL - HR Forms/span_Travel Authorization'))
-
 WebUI.click(findTestObject('Page_TAWASAL - Requests List/a_HR Forms'))
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - HR Forms/span_Travel Authorization'))
+
+WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/textarea_Purpose Of Travel_ATCGlobalTheme_w_24d457'), 
+    'Onsite Training and Test')
+
+WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/textarea_Organization_ATCGlobalTheme_wt20bl_973682'), 
+    'ATC')
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/input_From_ATCGlobalTheme_wt20blockwtMainCo_ece7b4'))
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/td_8'))
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/input_To_ATCGlobalTheme_wt20blockwtMainCont_a85645'))
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/td_17'))
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/input_Visa Required_-847584917'))
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/a_Add Destination'))
+
+WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/input_Destination _WebPatterns_wt13blockwtMainContentwt15'), 
+    'india')
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/input_Date _WebPatterns_wt13blockwtMainCont_65215d'))
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/td_23'))
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/input_Date _WebPatterns_wt13blockwtMainContentwt14'))
+
+WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/textarea_Comments_ATCGlobalTheme_wt20blockw_a0bf20'), 
+    'training for the IT Security')
+
+WebUI.click(findTestObject('Object Repository/Page_TAWASAL - Travel Authorization Form/input_Comments_ATCGlobalTheme_wt20blockwtMa_a7c7cb'))
+
+WebUI.acceptAlert()
 
