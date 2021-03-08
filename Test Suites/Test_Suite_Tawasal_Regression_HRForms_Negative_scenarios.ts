@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Regression_Negative_scenarios</name>
+   <name>Test_Suite_Tawasal_Regression_HRForms_Negative_scenarios</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>

@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login/Tawasal_login_TC_1'), [('username') : 'osama', ('password') : '123456'], FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.click(findTestObject('Page_TAWASAL - Requests List/a_HR Forms'))
+
 WebUI.click(findTestObject('Page_TAWASAL - HR Forms/span_Phone Internet Services'))
 
 WebUI.click(findTestObject('Object Repository/phoneinternetserviceTC/Page_TAWASAL -PhoneInternet Services Request/input_International Subscription_ATCGlobalT_f540a7'))

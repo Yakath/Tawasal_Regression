@@ -18,6 +18,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Tawasal_login_TC_1'), [('username') : 'osama', ('password') : '123456'], FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.click(findTestObject('Page_TAWASAL - Requests List/a_HR Forms'))
+
 WebUI.click(findTestObject('Page_TAWASAL - HR Forms/span_Sick Leave Request'))
 
 WebUI.click(findTestObject('Object Repository/SickLeavepage/Page_TAWASAL - Sick Leave Form/input_ _ATCGlobalTheme_wt14blockwtMainConte_19a761'))

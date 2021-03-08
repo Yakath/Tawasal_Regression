@@ -18,6 +18,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Tawasal_login_TC_1'), [('username') : 'osama', ('password') : '123456'], FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.click(findTestObject('Page_TAWASAL - Requests List/a_HR Forms'))
+
 WebUI.click(findTestObject('Page_TAWASAL - HR Forms/span_Residence Information Transfer'))
 
 WebUI.setText(findTestObject('Object Repository/ResidenceInfoTransfer/Page_TAWASAL - Residence Information Transfer/input_Old Passport No_ATCGlobalTheme_wt11bl_66abdc'), 

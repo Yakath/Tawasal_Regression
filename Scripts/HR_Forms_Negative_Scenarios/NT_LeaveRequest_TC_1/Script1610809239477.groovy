@@ -18,7 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Tawasal_login_TC_1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/LeaveRequest_OR/Page_TAWASAL - HR Forms/span_Leave Request'))
+WebUI.click(findTestObject('Page_TAWASAL - Requests List/a_HR Forms'))
+
+WebUI.click(findTestObject('LeaveRequest_OR/Page_TAWASAL - HR Forms/span_Leave Request'))
 
 WebUI.click(findTestObject('Object Repository/LeaveRequest_OR/Page_TAWASAL - Leave Request/input_Annual_-1720092522'))
 

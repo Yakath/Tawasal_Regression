@@ -18,6 +18,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Tawasal_login_TC_1'), [('username') : 'osama', ('password') : '123456'], FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.click(findTestObject('Page_TAWASAL - Requests List/a_HR Forms'))
+
 WebUI.click(findTestObject('Object Repository/Page_TAWASAL - HR Forms/span_Business Cards Request'))
 
 WebUI.setText(findTestObject('Object Repository/Page_TAWASAL - Business Cards Request/input_Quantity_ATCGlobalTheme_wt123blockwtM_fa01e8'), 
